@@ -1,4 +1,4 @@
-FROM renovate/renovate:19
+FROM renovate/renovate:latest
 
 LABEL com.github.actions.name="GitHub Action for Renovate"
 
