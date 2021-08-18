@@ -31,8 +31,8 @@ jobs:
         uses: Djiit/action-renovate@v1.0.0-alpha
         with:
           args: >
-            --log-level debug
             ${{ github.repository }}
           # --more-args
         env:
           RENOVATE_TOKEN: ${{ secrets.RENOVATE_TOKEN }}
+          LOG_LEVEL: debug
