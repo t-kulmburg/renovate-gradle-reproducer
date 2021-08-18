@@ -1,4 +1,4 @@
-FROM renovate/renovate:25.76.1-slim@sha256:8684628b84867b2f8cf3671855af4a635a0077fc3fa9185bdfe7097f8abff1ce
+FROM renovate/renovate:25.76.1-slim@sha256:3a3afaf12ecf4942a3133436487371a64b225176e9abcdb3c16166a7e5a1c245
 
 LABEL com.github.actions.name="GitHub Action for Renovate"
 
