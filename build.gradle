@@ -1,0 +1,11 @@
+configurations {
+    reproducer
+}
+
+dependencies{
+
+    reproducer 'junit:junit:4.0'
+
+    reproducer 'junit-zip:junit-zip:4.0@zip'
+
+}
